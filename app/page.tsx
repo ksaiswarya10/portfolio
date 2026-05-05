@@ -32,7 +32,7 @@ export default function Home() {
       description:
         "A beginner-friendly SOC practice lab built to understand logs, alerts, Kali Linux, SIEM basics, and incident analysis workflow.",
       tech: "Kali Linux, Logs, SIEM Basics, Network Security",
-      link: "#",
+      link: "https://github.com/ksaiswarya10/mini-soc-lab",
     },
   ];
 
