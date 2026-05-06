@@ -23,16 +23,18 @@ export default function Home() {
     {
       title: "Phishing Detection Web Application",
       description:
-        "A cybersecurity web application that detects phishing URLs using rule-based checks and machine learning techniques.",
+        "Developed a cybersecurity web application to identify phishing URLs using rule-based analysis and machine learning techniques. Implemented feature extraction methods to analyze suspicious URL patterns and improve phishing detection accuracy.",
       tech: "Python, Flask, Scikit-learn, HTML, CSS",
       link: "https://github.com/ksaiswarya10/phishing-detection",
+      image: "/phishing.png",
     },
     {
       title: "Mini SOC Lab",
       description:
-        "A beginner-friendly SOC practice lab built to understand logs, alerts, Kali Linux, SIEM basics, and incident analysis workflow.",
-      tech: "Kali Linux, Logs, SIEM Basics, Network Security",
-      link: "https://github.com/ksaiswarya10/Mini-SOC-Lab-Wazuh",
+        "Built a Mini SOC lab environment to practice security monitoring, log analysis, alert investigation, and basic incident response concepts using Kali Linux and networking tools.",
+      tech: "Kali Linux, SIEM Basics, Logs, Networking",
+      link: "https://github.com/ksaiswarya10/mini-soc-lab",
+      image: "/soclab.png",
     },
   ];
 
@@ -108,7 +110,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* TERMINAL ANIMATION */}
+        {/* TERMINAL */}
         <motion.div
           initial={{ opacity: 0, scale: 0.85 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -200,6 +202,12 @@ export default function Home() {
               whileHover={{ y: -8 }}
               className="bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-cyan-500 transition"
             >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="rounded-xl mb-4 border border-gray-700 w-full h-48 object-cover"
+              />
+
               <h3 className="text-xl font-bold mb-3">{project.title}</h3>
 
               <p className="text-gray-400 mb-4 leading-relaxed">
