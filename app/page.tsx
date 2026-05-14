@@ -28,6 +28,7 @@ export default function Home() {
       link: "https://github.com/ksaiswarya10/phishing-detection",
       image: "/phishing.png",
     },
+
     {
       title: "Mini SOC Lab",
       description:
@@ -35,6 +36,15 @@ export default function Home() {
       tech: "Kali Linux, SIEM Basics, Logs, Networking",
       link: "https://github.com/ksaiswarya10/mini-soc-lab",
       image: "/soclab.png",
+    },
+
+    {
+      title: "AI-Based Threat Detection System",
+      description:
+        "Developed an AI-powered cybersecurity dashboard to detect suspicious activities and analyze security logs using Machine Learning. Implemented SOC-style analytics, CSV log upload analysis, risk scoring, and interactive threat visualization.",
+      tech: "Python, Flask, Machine Learning, Pandas, Chart.js, HTML, CSS",
+      link: "https://github.com/ksaiswarya10/AI-Threat-Detection-System",
+      image: "/ai-threat-dashboard.png",
     },
   ];
 
