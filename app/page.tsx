@@ -9,6 +9,8 @@ export default function Home() {
     "Wireshark",
     "Burp Suite",
     "Kali Linux",
+    "Wazuh",
+    "Splunk"
     "TCP/IP",
     "DNS",
     "HTTP/HTTPS",
