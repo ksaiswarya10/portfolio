@@ -10,7 +10,7 @@ export default function Home() {
     "Burp Suite",
     "Kali Linux",
     "Wazuh",
-    "Splunk"
+    "Splunk",
     "TCP/IP",
     "DNS",
     "HTTP/HTTPS",
