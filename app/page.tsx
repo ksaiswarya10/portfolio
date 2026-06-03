@@ -58,7 +58,7 @@ export default function Home() {
     "> focus",
     "SOC Analysis | Threat Detection | Network Security",
     "> tools",
-    "Nmap | Wireshark | Burp Suite | Kali Linux",
+    "Nmap | Wireshark | Burp Suite | Kali Linux | Wazuh | Splunk",
   ];
 
   return (
